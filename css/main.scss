@@ -6,12 +6,12 @@
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-		"variables",
-		"reset",
-		"typografy",
-		"animations",
-        "base",
-        "layout",
-        "syntax-highlighting"
+		"_sass/variables",
+		"_sass/reset",
+		"_sass/typografy",
+		"_sass/animations",
+        "_sass/base",
+        "_sass/layout",
+        "_sass/syntax-highlighting"
 ;
 
