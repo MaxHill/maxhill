@@ -11,3 +11,4 @@ github_username:  maxHill
 markdown: kramdown
 sass:
     style: :compressed
+    sass_dir: _sass

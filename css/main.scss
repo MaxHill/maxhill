@@ -1,17 +1,18 @@
 ---
 # Front matter comment to ensure Jekyll properly reads file.
 ---
+
 // Add your styles here
 @charset "utf-8";
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-		"_sass/variables",
-		"_sass/reset",
-		"_sass/typografy",
-		"_sass/animations",
-        "_sass/base",
-        "_sass/layout",
-        "_sass/syntax-highlighting"
+		"_variables",
+		"_reset",
+		"_typografy",
+		"_animations",
+        "_base",
+        "_layout",
+        "_syntax-highlighting"
 ;
 
