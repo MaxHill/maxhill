@@ -1,0 +1,71 @@
+//header
+.siteHeader{
+	text-align: center;
+}
+
+.postHeader{
+	-webkit-animation: postHeader 15s infinite; /* Safari 4+ */
+	-moz-animation:    postHeader 15s infinite; /* Fx 5+ */
+	-o-animation:      postHeader 15s infinite; /* Opera 12+ */
+	animation:         postHeader 15s infinite; /* IE 10+, Fx 29+ */
+
+}
+
+.postHeader a {
+	color: $white;
+}
+
+.headerImage{
+	width: 200px;
+	display:inline-block;
+}
+.hero{
+	display: inline-block;
+	padding-top:30px;
+	font-size: 1.2em;
+}
+
+//home
+.postList{
+	text-align: center;
+	color:$white;
+}
+
+.postList:hover{
+	z-index: 2;
+	transform:scale(1.2);
+	color:$white;
+}
+
+.postList:nth-child(4n+1){
+	background: $blue;
+}
+.postList:nth-child(4n+2){
+	background: $green;
+}
+.postList:nth-child(4n+3){
+	background: $yellow;
+}
+.postList:nth-child(4n+4){
+	background: $red;
+}
+
+//post
+.post{
+	text-align: center;
+}
+
+.postContent{
+	margin-top:70px;
+	display:inline-block;
+	width:90%;
+	max-width: 900px;
+	text-align: left;
+}
+
+
+
+
+
+
+

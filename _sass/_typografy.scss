@@ -1,0 +1,104 @@
+html,body {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    text-align: left;
+    color:$fontDark;
+    -webkit-font-smoothing:antialiased;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+    color: #293439;
+    transition: all .2s;
+    position:relative;
+    color:$fontGrey;
+}
+
+a:hover {
+    color:$fontDark;
+}
+
+a:active {
+    outline: none;
+}
+
+p {
+    font-size: 100%;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1.7;
+    padding-top:20px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    text-rendering: optimizeLegibility;
+}
+
+h1 {
+    font-size: 2.25em;
+    line-height: 1.3em;
+    clear: left;
+}
+
+h2 {
+    font-size: 1.8em;
+    line-height: 1.3em;
+}
+
+h3 {
+    font-size: 1.5em;
+    line-height: 1.3em;
+    font-weight: 800;
+}
+
+h4 {
+    font-size: 1.3125em;
+    line-height: 1.3em;
+}
+
+h5 {
+    line-height: 1em;
+    line-height: 1em;
+    font-weight: 800; 
+}
+
+h6 {
+    font-size: 1em;
+    line-height: 1em;
+}
+
+
+@include bp(mama-bear) {
+    h1 {
+        font-size: 3em;
+        line-height: 1.1em;
+    }
+
+    h2 {
+        font-size: 2.5em;
+        line-height: 1.3em;
+    }
+
+    h3 {
+        font-size: 1.9em;
+        line-height: 1.3em;
+        font-weight: 800;
+    }
+
+    h4 {
+        font-size: 1.3125em;
+        line-height: 1.3em;
+    }
+
+    h5 {
+        line-height: 1.7em;
+        line-height: 1em;
+        font-weight: 800; 
+    }
+
+    h6 {
+        font-size: 1em;
+        line-height: 1em;
+    }
+}

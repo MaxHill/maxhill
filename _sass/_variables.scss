@@ -1,0 +1,41 @@
+// colors
+
+$black: #040D10;
+$white: #E8EBE4;
+$grey: #eee;
+
+$blue: #2C82C9;
+$green: #2CC990;
+$yellow: #FCB941;
+$red: #FC6042;
+
+$mainColor: #293439;
+$bodyBackground:#F7F7F5;
+
+//font
+$fontDark: #252525;
+$fontLight: #ecf0f1;
+$fontGrey: #7f8c8d;
+
+//components
+$navHeight: 70px;
+$navHeightMama: 80px;
+$wrapperWidth: 1000px;
+
+//interaction
+$transition: all .3s ease;
+
+//Media Queries
+ //make sure to change in js fn : lazyimages if changed here
+ 
+@mixin bp($point) {
+  @if $point == papa-bear {
+    @media (min-width: 1100px) { @content; }
+  }
+  @else if $point == mama-bear {
+    @media (min-width: 750px) { @content; }
+  }
+  @else if $point == baby-bear {
+    @media (min-width: 0px)  { @content; }
+  }
+}
