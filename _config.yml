@@ -2,7 +2,7 @@
 title: Simple blog
 email: max@hilloco.se
 description: > # Im testing jekyll to see what the fuzz is about.
-baseurl: "maxhill/" # the subpath of your site, e.g. /blog/
+baseurl: "/maxhill/" # the subpath of your site, e.g. /blog/
 url: "http://hilloco.se" # the base hostname & protocol for your site
 twitter_username: maxpeterhill
 github_username:  maxHill
