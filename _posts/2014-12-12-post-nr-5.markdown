@@ -1,25 +1,9 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2014-12-12 18:02:41
-categories: jekyll update
+title:  "Bildblog status"
+date:   2014-12-23 18:02:41
+categories: bildblog, symfony
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+Igår så började sidan ta form jag flyttade runt relationerna så  att Post har en kategori medans Page inte har det,jag började även ändra så att Page kontrollern returnade jsondata som går att hämta upp med frontenden. Efter detta satte jag upp gulp för att konkatenera javascript och kompilera sass. Jag gjorde denna setupen i /web mappen, jag vet inte om det är rätt men det verkar fungera för nu, kan hända att jag måste flytta detta senare...
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
-
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
-
-[jekyll]:      http://jekyllrb.com
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-help]: https://github.com/jekyll/jekyll-help
+Jag har också lite beslutsångest över vilket framework jag ska använda på framsidan. Det lutar åt Angular men känns inte bra när med tanke på accessability så funderar även på backbone. Men å andra sidan så kommer sidan att kräva javascript vilket som så det är därför det lutar åt angular... 
